@@ -49,18 +49,89 @@
 
 
 
+ /* main section start  */
+
+ /* plant section  */
+ .plants-head {
+     font-size: 3.1rem;
+     font-weight: bold;
+ }
+
+ .plants-para {
+     font-size: 1.3rem;
+ }
 
 
+ .plant-head {
+     text-align: center;
+     margin-bottom: 50px;
+ }
+
+ .plant-grid-section {
+     display: grid;
+     grid-template-columns: repeat(4, 1fr);
+     gap: 20px;
+ }
+
+ .sample-flower {
+     width: 270px;
+     height: 320px;
+ }
+
+ .lily {
+     font-size: 20px;
+     color: #111111;
+ }
+
+ .br {
+     font-size: 22px;
+     font-weight: bold;
+     color: #111111;
+ }
 
 
+ .plant-grid {
+     text-align: center;
+ }
+
+ .cart {
+     width: 270px;
+     height: 50px;
+     background-color: #E95A08;
+     font-size: 16px;
+     color: #FFFFFF;
+     font-weight: 600;
+ }
 
 
+ /* hero section */
 
+ .hero-pic {
+     width: 570px;
+     height: 590px;
+ }
 
+ .hero-logo {
+     height: 285px;
+     width: 285px;
+     margin-right: -300px;
+ }
 
+ .hero-section {
+     margin-top: 210px;
+     display: flex;
+     gap: 60px;
+     align-items: center;
+ }
 
+ .plants-love {
+     font-size: 3.1rem;
+     font-weight: bold;
+ }
 
-
+ .plants-li {
+     font-size: 22px;
+ }
 
 
 
@@ -75,7 +146,31 @@
      margin: 0 auto;
  }
 
-.paragraph-clr{ color: rgba(0, 0, 0, 0.5);}
+ .paragraph-clr {
+     color: rgba(0, 0, 0, 0.5);
+ }
+
+
+ .yellish {
+     color: #E95A08;
+ }
+
+
+ .ashes {
+     color: rgba(0, 0, 0, 0.5);
+ }
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -114,4 +209,41 @@
      .banner-h5 {
          font-size: 14px;
      }
+
+     .plant-grid-section {
+         grid-template-columns: repeat(2, 1fr);
+         gap: 5px;
+
+     }
+
+     .sample-flower {
+         width: 170px;
+         height: 340px;
+     }
+
+     .cart {
+         width: 170px;
+         height: 50px;
+         background-color: #E95A08;
+         font-size: 16px;
+         color: #FFFFFF;
+         font-weight: 600;
+         padding: 0%;
+
+     }
+
+     .plant-grid {
+         margin-bottom: 25px;
+     }
+
+     .hero-section {
+         flex-direction: column;
+
+     }
+
+     .hero-pic {
+         width: 390px;
+         height: 395px;
+     }
+
  }
