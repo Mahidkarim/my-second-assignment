@@ -117,7 +117,7 @@
      margin-right: -300px;
  }
 
- .hero-section {
+ .plant-love-section {
      margin-top: 210px;
      display: flex;
      gap: 60px;
@@ -236,7 +236,7 @@
          margin-bottom: 25px;
      }
 
-     .hero-section {
+     .plant-love-section {
          flex-direction: column;
 
      }
