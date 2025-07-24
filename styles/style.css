@@ -286,6 +286,36 @@
 
 
 
+/* footer-section  */
+
+.footer-section{ display: flex;
+gap: 110px; margin-top: 50px;}
+
+
+.footer-img{ width: 135px;
+height: 82px;}
+
+.footer-para{ font-size: 22px;
+color: rgba(0, 0, 0, 0.5);
+width: 350px;}
+
+.footer-ul{ list-style: none;
+margin: 0;
+padding: 0%;}
+
+.footer-ul li a{ text-decoration: none;
+color: #6B7280;}
+
+.margin-bottom{ margin-bottom: 30px;}
+
+.margin-icon{ margin-right: 15px;}
+
+
+.con-img{ width: 30px;
+height: 30px;}
+
+
+
 
 
 
