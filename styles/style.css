@@ -1,17 +1,14 @@
- 
- 
- 
-.noto-serif-font {
-  font-family: "Noto Serif", serif;
-  font-optical-sizing: auto;
-  font-weight: <weight>;
-  font-style: normal;
-  font-variation-settings:
-    "wdth" 100;
-}
- 
- 
- 
+ .noto-serif-font {
+     font-family: "Noto Serif", serif;
+     font-optical-sizing: auto;
+     font-weight: <weight>;
+     font-style: normal;
+     font-variation-settings:
+         "wdth" 100;
+ }
+
+
+
  body {
      margin: 0px;
      padding: 0;
@@ -101,12 +98,14 @@
  .lily {
      font-size: 20px;
      color: #111111;
+
  }
 
  .br {
      font-size: 22px;
-     font-weight: bold;
+     font-weight: 900;
      color: #111111;
+
  }
 
 
@@ -162,6 +161,7 @@
 
  .hero-plant {
      position: relative;
+
  }
 
  .hero-logo {
@@ -305,6 +305,7 @@
  .email {
      width: 644px;
      height: 42px;
+     padding-left: 20px;
  }
 
 
@@ -510,7 +511,6 @@
 
      .plant-love-section {
          flex-direction: column;
-
      }
 
      .hero-pic {
